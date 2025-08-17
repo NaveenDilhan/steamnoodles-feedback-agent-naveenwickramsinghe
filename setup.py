@@ -22,7 +22,7 @@ def create_directory_structure():
     for directory in directories:
         os.makedirs(directory, exist_ok=True)
         
-        # Create __init__.py files for Python packages
+        
         if directory in ['agents', 'config', 'utils']:
             init_file = os.path.join(directory, '__init__.py')
             if not os.path.exists(init_file):
@@ -90,11 +90,11 @@ def run_initial_test():
         import matplotlib.pyplot as plt
         print("✓ All required packages can be imported")
         
-        # Test data generation
+        
         from utils.data_generator import generate_sample_data
         if not os.path.exists('data/restaurant_reviews.csv'):
             print("Generating sample data...")
-            generate_sample_data(50, 7)  # Small dataset for testing
+            generate_sample_data(50, 7)  
         
         print("✓ Initial test completed successfully")
         return True
@@ -111,24 +111,24 @@ def main():
     print("SteamNoodles Multi-Agent Framework Setup")
     print("=" * 45)
     
-    # Check Python version
+    
     if not check_python_version():
         response = input("Continue anyway? (y/n): ")
         if response.lower() != 'y':
             sys.exit(1)
     
-    # Create directory structure
+    
     create_directory_structure()
     
-    # Install dependencies
+    
     if not install_dependencies():
         print("Setup failed due to dependency installation issues")
         sys.exit(1)
     
-    # Create environment template
+    
     create_env_template()
     
-    # Run initial test
+    
     test_passed = run_initial_test()
     
     print("\n" + "=" * 45)

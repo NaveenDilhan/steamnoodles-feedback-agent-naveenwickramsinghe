@@ -24,7 +24,7 @@ class DateRangeParser:
         query_lower = query.lower()
         today = datetime.now().date()
 
-        # Handle common phrases like "last 7 days", "past 2 weeks", etc.
+       
         if "last" in query_lower or "past" in query_lower:
             numbers = re.findall(r'\d+', query)
             if numbers:
@@ -217,7 +217,7 @@ Question: {input}
         return self.data_tool.run(query)
 
 
-# Example usage and testing
+
 if __name__ == "__main__":
     data_file = "../data/restaurant_reviews.csv"
 

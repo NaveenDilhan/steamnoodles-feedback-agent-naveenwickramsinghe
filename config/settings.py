@@ -5,10 +5,10 @@ Configuration settings for SteamNoodles Multi-Agent Framework
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file if it exists
+
 load_dotenv()
 
-# OpenAI API Configuration
+
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', '')
 
 # If no environment variable, you can set it directly here (not recommended for production)

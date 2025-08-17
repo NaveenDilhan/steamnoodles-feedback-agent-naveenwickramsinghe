@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-SteamNoodles Multi-Agent Framework Demo
-Comprehensive demonstration of both agents with sample outputs
-"""
 
 import os
 import sys
@@ -13,17 +9,17 @@ from agents.visualization_agent import SentimentVisualizationAgent
 from utils.data_generator import generate_sample_data
 
 def print_header(title):
-    """Print formatted header"""
+    
     print("\n" + "=" * 60)
     print(f"  {title}")
     print("=" * 60)
 
 def print_subheader(title):
-    """Print formatted subheader"""
+    
     print(f"\n--- {title} ---")
 
 def demo_feedback_responses():
-    """Demonstrate feedback response generation with detailed examples"""
+    
     print_header("AGENT 1: CUSTOMER FEEDBACK RESPONSE AGENT")
     
     print("This agent analyzes customer sentiment and generates personalized responses.")
@@ -31,7 +27,7 @@ def demo_feedback_responses():
     
     agent = FeedbackResponseAgent()
     
-    # Comprehensive test cases
+    
     test_cases = [
         {
             "category": "Highly Positive",
@@ -67,7 +63,7 @@ def demo_feedback_responses():
         print(f"Customer Review:")
         print(f'"{case["review"]}"')
         
-        # Process the review
+       
         print("\n⏳ Processing...")
         start_time = time.time()
         
@@ -75,14 +71,14 @@ def demo_feedback_responses():
         
         processing_time = time.time() - start_time
         
-        # Display results
+        
         print(f"\n📊 Analysis Results:")
         print(f"   Sentiment: {response['sentiment'].upper()}")
         print(f"   Processing Time: {processing_time:.2f} seconds")
         print(f"\n🤖 Automated Response:")
         print(f'   "{response["reply"]}"')
         
-        # Validation
+        
         sentiment_match = response['sentiment'] == case['expected_sentiment']
         print(f"\n✓ Sentiment Classification: {'CORRECT' if sentiment_match else 'UNEXPECTED'}")
         
@@ -94,9 +90,9 @@ def demo_feedback_responses():
         })
         
         print("-" * 60)
-        time.sleep(1)  # Brief pause for readability
+        time.sleep(1)  
     
-    # Summary statistics
+    
     print_subheader("Performance Summary")
     correct_predictions = sum(1 for r in results if r['correct'])
     avg_time = sum(r['processing_time'] for r in results) / len(results)
@@ -112,16 +108,16 @@ def demo_sentiment_visualization():
     
     print("This agent creates dynamic visualizations based on natural language queries.")
     
-    # Ensure we have data
+    
     data_file = "data/restaurant_reviews.csv"
     if not os.path.exists(data_file):
         print("📊 Generating sample dataset...")
-        generate_sample_data(300, 45)  # Larger dataset for better visualizations
+        generate_sample_data(300, 45) 
         print("✓ Sample data generated")
     
     agent = SentimentVisualizationAgent(data_file)
     
-    # Test different types of queries
+    
     test_queries = [
         {
             "query": "Show sentiment trends for the last 7 days",
@@ -151,12 +147,12 @@ def demo_sentiment_visualization():
         start_time = time.time()
         
         try:
-            # Get data summary first
+           
             summary = agent.get_data_summary(test['query'])
             print(f"\n📊 Data Summary:")
             print(summary)
             
-            # Generate visualization
+            
             plot_path = agent.generate_visualization(test['query'])
             processing_time = time.time() - start_time
             
@@ -174,7 +170,7 @@ def demo_sentiment_visualization():
         print("-" * 60)
         time.sleep(1)
     
-    # Summary
+    
     print_subheader("Visualization Summary")
     print(f"Queries Processed: {len(test_queries)}")
     print(f"Successful Visualizations: {len(generated_plots)}")
@@ -192,7 +188,7 @@ def demo_integration():
     
     print("Demonstrating how both agents work together in a real workflow...")
     
-    # Sample scenario
+   
     new_reviews = [
         "The new spicy ramen is amazing! Best meal I've had in months.",
         "Service was terrible today. Waited forever and food was cold.",
@@ -203,7 +199,7 @@ def demo_integration():
     print(f"   • Received {len(new_reviews)} new reviews")
     print("   • Need to: 1) Respond to customers, 2) Update sentiment dashboard")
     
-    # Step 1: Process feedback
+    
     print_subheader("Step 1: Generate Customer Responses")
     feedback_agent = FeedbackResponseAgent()
     
@@ -219,10 +215,10 @@ def demo_integration():
         print(f"   → Sentiment: {response['sentiment']}")
         print(f"   → Reply: \"{response['reply']}\"")
     
-    # Step 2: Update visualizations
+    
     print_subheader("Step 2: Update Sentiment Dashboard")
     
-    # Add new reviews to dataset (simulation)
+    
     print("📊 Updating sentiment dashboard with new data...")
     
     try:
@@ -237,7 +233,7 @@ def demo_integration():
     except Exception as e:
         print(f"❌ Error updating dashboard: {e}")
     
-    # Summary
+    
     print_subheader("Integration Summary")
     sentiment_counts = {}
     for review in processed_reviews:
@@ -257,7 +253,7 @@ def main():
     print("    Complete System Demonstration")
     print(f"    {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
-    # Check setup
+    
     try:
         from config.settings import validate_config
         if not validate_config():
@@ -270,10 +266,10 @@ def main():
         if response.lower() != 'y':
             sys.exit(1)
     
-    # Create output directory
+    
     os.makedirs("outputs", exist_ok=True)
     
-    # Run demos
+    
     try:
         demo_feedback_responses()
         demo_sentiment_visualization() 

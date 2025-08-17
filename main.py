@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-SteamNoodles Multi-Agent Framework
-Main application file for customer feedback analysis and visualization
-"""
 
 import os
 import sys
@@ -14,7 +10,7 @@ from utils.data_generator import generate_sample_data
 from config.settings import OPENAI_API_KEY
 
 def setup_environment():
-    """Setup environment and validate API key"""
+    
     if not OPENAI_API_KEY:
         print("ERROR: OpenAI API key not found!")
         print("Please set your OPENAI_API_KEY in config/settings.py or as an environment variable")
@@ -25,7 +21,7 @@ def setup_environment():
     print("✓ Environment setup complete")
 
 def demo_feedback_agent():
-    """Demonstrate the Feedback Response Agent"""
+    
     print("\n" + "="*50)
     print("DEMO: FEEDBACK RESPONSE AGENT")
     print("="*50)
@@ -51,7 +47,7 @@ def demo_feedback_agent():
         print("-" * 40)
 
 def demo_visualization_agent():
-    """Demonstrate the Sentiment Visualization Agent"""
+    
     print("\n" + "="*50)
     print("DEMO: SENTIMENT VISUALIZATION AGENT")
     print("="*50)
@@ -82,7 +78,7 @@ def demo_visualization_agent():
             print(f"✗ Error generating visualization: {str(e)}")
 
 def interactive_mode():
-    """Interactive mode for testing both agents"""
+    
     print("\n" + "="*50)
     print("INTERACTIVE MODE")
     print("="*50)
@@ -138,7 +134,7 @@ def interactive_mode():
             print(f"Error: {str(e)}")
 
 def main():
-    """Main function"""
+    
     print("SteamNoodles Multi-Agent Framework")
     print("=" * 40)
     

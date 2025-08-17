@@ -20,7 +20,7 @@ def generate_sample_data(num_reviews=200, days_back=30):
         str: Path to generated CSV file
     """
     
-    # Sample review texts categorized by sentiment
+    
     positive_reviews = [
         "Absolutely amazing food! The noodles were perfectly cooked and the flavors were incredible.",
         "Outstanding service and delicious food. Will definitely be back!",
@@ -75,24 +75,24 @@ def generate_sample_data(num_reviews=200, days_back=30):
         "Fair enough. The food was okay and the staff was polite."
     ]
     
-    # Generate random reviews
+    
     reviews_data = []
     end_date = datetime.now().date()
     start_date = end_date - timedelta(days=days_back)
     
     for i in range(num_reviews):
-        # Random date within range
+        
         random_days = random.randint(0, days_back)
         review_date = start_date + timedelta(days=random_days)
         
-        # Random sentiment distribution (more realistic)
+        
         sentiment_choice = random.choices(
             ['positive', 'negative', 'neutral'],
-            weights=[0.5, 0.3, 0.2],  # 50% positive, 30% negative, 20% neutral
+            weights=[0.5, 0.3, 0.2], 
             k=1
         )[0]
         
-        # Select review text based on sentiment
+        
         if sentiment_choice == 'positive':
             review_text = random.choice(positive_reviews)
         elif sentiment_choice == 'negative':
@@ -100,7 +100,7 @@ def generate_sample_data(num_reviews=200, days_back=30):
         else:
             review_text = random.choice(neutral_reviews)
         
-        # Add some variation to reviews
+        
         variations = [
             " The restaurant atmosphere was pleasant.",
             " Staff was professional.",
@@ -111,7 +111,7 @@ def generate_sample_data(num_reviews=200, days_back=30):
             ""
         ]
         
-        if random.random() < 0.3:  # 30% chance to add variation
+        if random.random() < 0.3: 
             review_text += random.choice(variations)
         
         reviews_data.append({
@@ -122,16 +122,16 @@ def generate_sample_data(num_reviews=200, days_back=30):
             'customer_id': f'C{random.randint(1000, 9999)}'
         })
     
-    # Create DataFrame
+    
     df = pd.DataFrame(reviews_data)
     
-    # Sort by date
+    
     df = df.sort_values('date').reset_index(drop=True)
     
-    # Create data directory if it doesn't exist
+    
     os.makedirs('data', exist_ok=True)
     
-    # Save to CSV
+   
     csv_path = 'data/restaurant_reviews.csv'
     df.to_csv(csv_path, index=False)
     
@@ -151,7 +151,7 @@ def add_more_reviews(additional_reviews=50):
         existing_df = pd.read_csv(csv_path)
         existing_count = len(existing_df)
         
-        # Generate additional reviews
+       
         generate_sample_data(existing_count + additional_reviews, days_back=45)
         print(f"Added {additional_reviews} more reviews to existing dataset")
     else:
@@ -159,5 +159,5 @@ def add_more_reviews(additional_reviews=50):
         generate_sample_data(additional_reviews)
 
 if __name__ == "__main__":
-    # Generate sample data when run directly
+    
     generate_sample_data()
