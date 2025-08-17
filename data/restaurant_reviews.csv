@@ -1,0 +1,201 @@
+date,review_text,sentiment,review_id,customer_id
+2025-07-04,Highly recommend the spicy noodles. The ambiance is also very nice.,positive,R0109,C6471
+2025-07-04,Perfect place for a quick lunch. The food is consistently good.,positive,R0114,C8808
+2025-07-04,The noodles were mushy and the vegetables were wilted.,negative,R0011,C3946
+2025-07-04,The service was average and the food was standard.,neutral,R0171,C8015
+2025-07-04,Loved everything about this place. The portions were generous and the taste was fantastic.,positive,R0103,C1628
+2025-07-04,Overpriced and underwhelming. The food lacked flavor completely.,negative,R0105,C2039
+2025-07-04,The service was average and the food was standard.,neutral,R0062,C8507
+2025-07-04,Excellent dining experience. The food arrived quickly and was still hot.,positive,R0197,C2152
+2025-07-04,The food was greasy and unappetizing. Very disappointing. The restaurant atmosphere was pleasant.,negative,R0060,C6393
+2025-07-05,Would not recommend. The quality has really gone downhill.,negative,R0042,C1882
+2025-07-05,Fantastic restaurant! The staff was attentive and the food was delicious.,positive,R0055,C2850
+2025-07-05,The food was alright. Service could be better but it's acceptable.,neutral,R0112,C1346
+2025-07-05,Loved everything about this place. The portions were generous and the taste was fantastic. Clean restrooms.,positive,R0120,C8001
+2025-07-05,Overpriced and underwhelming. The food lacked flavor completely.,negative,R0175,C9744
+2025-07-05,Absolutely amazing food! The noodles were perfectly cooked and the flavors were incredible.,positive,R0045,C8973
+2025-07-06,The food was alright. Service could be better but it's acceptable.,neutral,R0046,C7189
+2025-07-06,Highly recommend the spicy noodles. The ambiance is also very nice. The restaurant atmosphere was pleasant.,positive,R0129,C6701
+2025-07-07,Perfect place for a quick lunch. The food is consistently good.,positive,R0137,C7697
+2025-07-07,Highly recommend the spicy noodles. The ambiance is also very nice. Music was at a good volume.,positive,R0167,C4194
+2025-07-07,Long wait times and mediocre food. Not worth the money. Staff was professional.,negative,R0058,C6926
+2025-07-08,Wonderful dining experience. The restaurant is clean and the food is fresh.,positive,R0052,C6627
+2025-07-08,The noodles were mushy and the vegetables were wilted. Good location and easy to find.,negative,R0079,C6112
+2025-07-08,Average experience. The noodles were decent and the service was fine. Parking was convenient.,neutral,R0005,C8000
+2025-07-08,Perfect place for a quick lunch. The food is consistently good. Music was at a good volume.,positive,R0139,C1006
+2025-07-08,Wonderful dining experience. The restaurant is clean and the food is fresh.,positive,R0190,C9261
+2025-07-08,Wonderful dining experience. The restaurant is clean and the food is fresh. Music was at a good volume.,positive,R0181,C6092
+2025-07-08,Terrible customer service. The waiters were rude and inattentive.,negative,R0178,C3630
+2025-07-08,Best noodles in town! The staff was friendly and the atmosphere was great. Staff was professional.,positive,R0013,C4263
+2025-07-09,The food was greasy and unappetizing. Very disappointing.,negative,R0012,C8620
+2025-07-09,It's an okay place. The noodles were decent and the price was fair.,neutral,R0003,C4294
+2025-07-09,The restaurant was dirty and the staff seemed uninterested.,negative,R0096,C4559
+2025-07-09,Amazing flavors! The chef really knows what they're doing.,positive,R0099,C1276
+2025-07-09,Best noodles in town! The staff was friendly and the atmosphere was great.,positive,R0170,C3432
+2025-07-09,The restaurant was dirty and the staff seemed uninterested.,negative,R0036,C4106
+2025-07-09,The food was greasy and unappetizing. Very disappointing.,negative,R0200,C7298
+2025-07-09,Decent noodles but nothing to write home about.,neutral,R0027,C6429
+2025-07-09,Terrible experience. The food was cold and the service was slow.,negative,R0156,C4301
+2025-07-09,Amazing flavors! The chef really knows what they're doing.,positive,R0122,C9838
+2025-07-09,Loved everything about this place. The portions were generous and the taste was fantastic. Clean restrooms.,positive,R0118,C3329
+2025-07-10,Wonderful dining experience. The restaurant is clean and the food is fresh. Parking was convenient.,positive,R0124,C8685
+2025-07-10,Poor service and mediocre food. Won't be coming back. Parking was convenient.,negative,R0176,C3535
+2025-07-10,Average experience. The noodles were decent and the service was fine.,neutral,R0146,C4148
+2025-07-10,"The food took forever to arrive and when it did, it was lukewarm.",negative,R0184,C7787
+2025-07-10,"The food was okay, nothing special but not bad either. Music was at a good volume.",neutral,R0101,C8349
+2025-07-10,Average experience. The noodles were decent and the service was fine.,neutral,R0141,C1893
+2025-07-10,Excellent dining experience. The food arrived quickly and was still hot. Staff was professional.,positive,R0143,C2742
+2025-07-10,Terrible experience. The food was cold and the service was slow.,negative,R0093,C8835
+2025-07-10,Overpriced and underwhelming. The food lacked flavor completely.,negative,R0145,C2853
+2025-07-11,It's fine. Not the best I've had but not the worst either.,neutral,R0195,C5089
+2025-07-11,Average restaurant with average food. It's fine for a casual meal.,neutral,R0074,C5724
+2025-07-11,Perfect place for a quick lunch. The food is consistently good.,positive,R0014,C9800
+2025-07-11,Perfect place for a quick lunch. The food is consistently good.,positive,R0016,C6550
+2025-07-11,The best noodle soup I've ever had. Coming back next week for sure! Music was at a good volume.,positive,R0126,C4190
+2025-07-11,Fantastic restaurant! The staff was attentive and the food was delicious.,positive,R0174,C8281
+2025-07-11,Great value for money. The noodles were fresh and the service was top-notch.,positive,R0158,C5015
+2025-07-12,The restaurant was dirty and the staff seemed uninterested.,negative,R0071,C2727
+2025-07-12,Overpriced and underwhelming. The food lacked flavor completely.,negative,R0116,C1080
+2025-07-12,The best noodle soup I've ever had. Coming back next week for sure!,positive,R0001,C5281
+2025-07-12,The food was alright. Service could be better but it's acceptable.,neutral,R0035,C4743
+2025-07-13,Fair enough. The food was okay and the staff was polite. Good location and easy to find.,neutral,R0025,C3852
+2025-07-13,Perfect place for a quick lunch. The food is consistently good.,positive,R0076,C6828
+2025-07-13,Expensive for what you get. The portions were small and tasteless.,negative,R0154,C6440
+2025-07-13,Fantastic restaurant! The staff was attentive and the food was delicious.,positive,R0153,C2994
+2025-07-13,Outstanding quality and fantastic taste. This place never disappoints!,positive,R0083,C3926
+2025-07-13,Expensive for what you get. The portions were small and tasteless.,negative,R0102,C3591
+2025-07-13,The restaurant was dirty and the staff seemed uninterested.,negative,R0130,C5214
+2025-07-13,Fair enough. The food was okay and the staff was polite.,neutral,R0002,C9490
+2025-07-13,It's an okay place for a quick meal. Nothing outstanding though.,neutral,R0186,C4254
+2025-07-13,The noodles were mushy and the vegetables were wilted. Parking was convenient.,negative,R0026,C9963
+2025-07-13,The food was alright. Service could be better but it's acceptable.,neutral,R0198,C3318
+2025-07-14,Terrible customer service. The waiters were rude and inattentive. Clean restrooms.,negative,R0067,C7480
+2025-07-14,Worst noodles I've ever had. The broth was too salty. Clean restrooms.,negative,R0177,C8455
+2025-07-14,Poor hygiene standards. The tables were dirty and sticky.,negative,R0196,C9784
+2025-07-14,The food was greasy and unappetizing. Very disappointing.,negative,R0134,C8927
+2025-07-14,Worst noodles I've ever had. The broth was too salty. Clean restrooms.,negative,R0061,C1472
+2025-07-14,Very disappointing. The noodles were overcooked and bland.,negative,R0193,C5937
+2025-07-14,The food was greasy and unappetizing. Very disappointing.,negative,R0066,C6615
+2025-07-14,Very disappointing. The noodles were overcooked and bland.,negative,R0020,C6445
+2025-07-15,Loved everything about this place. The portions were generous and the taste was fantastic.,positive,R0125,C4997
+2025-07-15,The food was alright. Service could be better but it's acceptable.,neutral,R0115,C2074
+2025-07-15,Amazing flavors! The chef really knows what they're doing. Staff was professional.,positive,R0127,C8859
+2025-07-15,Best noodles in town! The staff was friendly and the atmosphere was great.,positive,R0148,C5000
+2025-07-15,Best noodles in town! The staff was friendly and the atmosphere was great.,positive,R0162,C9164
+2025-07-15,Worst noodles I've ever had. The broth was too salty.,negative,R0087,C3714
+2025-07-15,Outstanding service and delicious food. Will definitely be back!,positive,R0100,C2227
+2025-07-15,The noodles were cooked to perfection. Loved the variety of toppings.,positive,R0044,C5697
+2025-07-15,Fantastic restaurant! The staff was attentive and the food was delicious. Staff was professional.,positive,R0050,C8027
+2025-07-15,Poor hygiene standards. The tables were dirty and sticky.,negative,R0081,C2792
+2025-07-16,Would not recommend. The quality has really gone downhill. Good location and easy to find.,negative,R0084,C4496
+2025-07-16,The best noodle soup I've ever had. Coming back next week for sure!,positive,R0006,C1460
+2025-07-16,Perfect place for a quick lunch. The food is consistently good. Staff was professional.,positive,R0090,C8521
+2025-07-16,Average experience. The noodles were decent and the service was fine.,neutral,R0151,C3861
+2025-07-16,Wonderful dining experience. The restaurant is clean and the food is fresh.,positive,R0049,C8939
+2025-07-16,Poor service and mediocre food. Won't be coming back. Music was at a good volume.,negative,R0173,C1274
+2025-07-16,Average food and service. It's an okay option in the area.,neutral,R0009,C5195
+2025-07-17,Amazing flavors! The chef really knows what they're doing.,positive,R0183,C1687
+2025-07-17,The restaurant was dirty and the staff seemed uninterested. Clean restrooms.,negative,R0111,C9345
+2025-07-17,"The food was okay, nothing special but not bad either.",neutral,R0017,C4317
+2025-07-17,Fantastic restaurant! The staff was attentive and the food was delicious. Staff was professional.,positive,R0080,C1927
+2025-07-18,Fair enough. The food was okay and the staff was polite.,neutral,R0133,C7462
+2025-07-18,Great value for money. The noodles were fresh and the service was top-notch.,positive,R0063,C8334
+2025-07-18,Poor hygiene standards. The tables were dirty and sticky. Parking was convenient.,negative,R0085,C3477
+2025-07-18,"The food was satisfactory. Not great, not terrible.",neutral,R0008,C5668
+2025-07-18,"The food was satisfactory. Not great, not terrible.",neutral,R0091,C9501
+2025-07-18,Loved everything about this place. The portions were generous and the taste was fantastic. Staff was professional.,positive,R0031,C3774
+2025-07-18,Average food and service. It's an okay option in the area.,neutral,R0192,C6038
+2025-07-19,Very disappointing. The noodles were overcooked and bland.,negative,R0119,C7876
+2025-07-19,"The food took forever to arrive and when it did, it was lukewarm.",negative,R0015,C2584
+2025-07-19,Great value for money. The noodles were fresh and the service was top-notch.,positive,R0048,C3459
+2025-07-19,Expensive for what you get. The portions were small and tasteless.,negative,R0180,C2953
+2025-07-19,"Great food, great service, great prices. What more could you ask for?",positive,R0132,C9585
+2025-07-19,Excellent dining experience. The food arrived quickly and was still hot.,positive,R0068,C8776
+2025-07-19,Fantastic restaurant! The staff was attentive and the food was delicious. Clean restrooms.,positive,R0128,C6694
+2025-07-19,Perfect place for a quick lunch. The food is consistently good.,positive,R0082,C5315
+2025-07-20,The best noodle soup I've ever had. Coming back next week for sure!,positive,R0123,C5160
+2025-07-20,Absolutely amazing food! The noodles were perfectly cooked and the flavors were incredible.,positive,R0043,C1466
+2025-07-20,Average experience. The noodles were decent and the service was fine.,neutral,R0023,C6656
+2025-07-21,Terrible customer service. The waiters were rude and inattentive.,negative,R0147,C5114
+2025-07-21,The restaurant was dirty and the staff seemed uninterested.,negative,R0064,C8975
+2025-07-21,Expensive for what you get. The portions were small and tasteless.,negative,R0121,C8437
+2025-07-21,Poor hygiene standards. The tables were dirty and sticky.,negative,R0165,C1538
+2025-07-21,The best noodle soup I've ever had. Coming back next week for sure!,positive,R0010,C7083
+2025-07-21,The food was greasy and unappetizing. Very disappointing. Music was at a good volume.,negative,R0138,C3955
+2025-07-22,Poor service and mediocre food. Won't be coming back.,negative,R0073,C1178
+2025-07-22,Perfect place for a quick lunch. The food is consistently good. Music was at a good volume.,positive,R0182,C1227
+2025-07-22,The noodles were cooked to perfection. Loved the variety of toppings. Parking was convenient.,positive,R0179,C7403
+2025-07-22,"Decent place for lunch. The noodles were okay, nothing more.",neutral,R0142,C4368
+2025-07-22,Worst noodles I've ever had. The broth was too salty. Music was at a good volume.,negative,R0054,C9027
+2025-07-22,Nothing special but gets the job done. Food was okay.,neutral,R0194,C6437
+2025-07-22,Loved everything about this place. The portions were generous and the taste was fantastic.,positive,R0169,C1901
+2025-07-22,Average restaurant with average food. It's fine for a casual meal.,neutral,R0157,C7848
+2025-07-22,The noodles were mushy and the vegetables were wilted.,negative,R0150,C9139
+2025-07-23,Perfect place for a quick lunch. The food is consistently good.,positive,R0131,C3514
+2025-07-23,Outstanding quality and fantastic taste. This place never disappoints!,positive,R0140,C7229
+2025-07-23,The best noodle soup I've ever had. Coming back next week for sure!,positive,R0069,C4168
+2025-07-23,Wonderful dining experience. The restaurant is clean and the food is fresh.,positive,R0004,C1055
+2025-07-23,Overpriced and underwhelming. The food lacked flavor completely.,negative,R0051,C8778
+2025-07-23,Loved everything about this place. The portions were generous and the taste was fantastic.,positive,R0057,C9838
+2025-07-23,It's an okay place. The noodles were decent and the price was fair.,neutral,R0024,C4192
+2025-07-24,Very disappointing. The noodles were overcooked and bland.,negative,R0189,C9782
+2025-07-24,Highly recommend the spicy noodles. The ambiance is also very nice.,positive,R0018,C2250
+2025-07-24,Terrible customer service. The waiters were rude and inattentive.,negative,R0019,C3463
+2025-07-24,Worst noodles I've ever had. The broth was too salty.,negative,R0161,C1043
+2025-07-24,The best noodle soup I've ever had. Coming back next week for sure!,positive,R0059,C5219
+2025-07-24,Fantastic restaurant! The staff was attentive and the food was delicious.,positive,R0065,C4426
+2025-07-24,Decent noodles but nothing to write home about.,neutral,R0041,C5089
+2025-07-25,The noodles were cooked to perfection. Loved the variety of toppings.,positive,R0172,C3200
+2025-07-25,Great value for money. The noodles were fresh and the service was top-notch. Clean restrooms.,positive,R0188,C4878
+2025-07-25,Nothing special but gets the job done. Food was okay.,neutral,R0039,C5226
+2025-07-25,Outstanding service and delicious food. Will definitely be back!,positive,R0030,C1933
+2025-07-25,"The food took forever to arrive and when it did, it was lukewarm. The restaurant atmosphere was pleasant.",negative,R0032,C2271
+2025-07-26,Long wait times and mediocre food. Not worth the money.,negative,R0135,C8743
+2025-07-26,The noodles were cooked to perfection. Loved the variety of toppings.,positive,R0086,C5241
+2025-07-26,"Great food, great service, great prices. What more could you ask for?",positive,R0106,C3464
+2025-07-26,Average experience. The noodles were decent and the service was fine.,neutral,R0155,C1703
+2025-07-26,Fantastic restaurant! The staff was attentive and the food was delicious.,positive,R0163,C9720
+2025-07-27,Terrible experience. The food was cold and the service was slow.,negative,R0094,C1546
+2025-07-27,Very disappointing. The noodles were overcooked and bland.,negative,R0113,C9751
+2025-07-27,Fantastic restaurant! The staff was attentive and the food was delicious.,positive,R0095,C7898
+2025-07-27,The noodles were decent. Nothing exceptional but edible.,neutral,R0037,C3751
+2025-07-27,Would not recommend. The quality has really gone downhill.,negative,R0029,C6770
+2025-07-27,Best noodles in town! The staff was friendly and the atmosphere was great. Good location and easy to find.,positive,R0056,C9134
+2025-07-27,Perfect place for a quick lunch. The food is consistently good.,positive,R0034,C9780
+2025-07-27,Nothing special but gets the job done. Food was okay.,neutral,R0159,C5400
+2025-07-28,It's an okay place. The noodles were decent and the price was fair.,neutral,R0072,C6349
+2025-07-28,"The food took forever to arrive and when it did, it was lukewarm.",negative,R0088,C3449
+2025-07-28,The restaurant was dirty and the staff seemed uninterested.,negative,R0144,C1813
+2025-07-28,Decent noodles but nothing to write home about. Clean restrooms.,neutral,R0078,C2635
+2025-07-28,Wonderful dining experience. The restaurant is clean and the food is fresh.,positive,R0047,C7188
+2025-07-29,"Great food, great service, great prices. What more could you ask for?",positive,R0033,C9453
+2025-07-29,Worst noodles I've ever had. The broth was too salty.,negative,R0166,C2135
+2025-07-29,Loved everything about this place. The portions were generous and the taste was fantastic. Parking was convenient.,positive,R0199,C3726
+2025-07-29,The noodles were mushy and the vegetables were wilted.,negative,R0187,C3673
+2025-07-29,Poor hygiene standards. The tables were dirty and sticky. Music was at a good volume.,negative,R0075,C7419
+2025-07-30,Perfect place for a quick lunch. The food is consistently good.,positive,R0007,C9194
+2025-07-30,Wonderful dining experience. The restaurant is clean and the food is fresh.,positive,R0136,C8240
+2025-07-30,Loved everything about this place. The portions were generous and the taste was fantastic.,positive,R0185,C4099
+2025-07-30,Great value for money. The noodles were fresh and the service was top-notch.,positive,R0191,C8434
+2025-07-30,"The food was satisfactory. Not great, not terrible.",neutral,R0149,C1697
+2025-07-30,Excellent dining experience. The food arrived quickly and was still hot. Good location and easy to find.,positive,R0160,C6814
+2025-07-31,"Great food, great service, great prices. What more could you ask for?",positive,R0108,C2832
+2025-07-31,"The food took forever to arrive and when it did, it was lukewarm.",negative,R0053,C8547
+2025-07-31,Great value for money. The noodles were fresh and the service was top-notch.,positive,R0152,C8388
+2025-07-31,It's an okay place for a quick meal. Nothing outstanding though.,neutral,R0077,C5859
+2025-07-31,Bad experience overall. The food was cold and the service was terrible.,negative,R0107,C9139
+2025-08-01,"The food took forever to arrive and when it did, it was lukewarm.",negative,R0097,C1375
+2025-08-01,Poor hygiene standards. The tables were dirty and sticky.,negative,R0110,C7261
+2025-08-01,Fantastic restaurant! The staff was attentive and the food was delicious. Music was at a good volume.,positive,R0092,C4821
+2025-08-01,The food was alright. Service could be better but it's acceptable.,neutral,R0089,C4982
+2025-08-02,Outstanding service and delicious food. Will definitely be back!,positive,R0070,C9930
+2025-08-02,Average restaurant with average food. It's fine for a casual meal.,neutral,R0021,C8288
+2025-08-03,The restaurant was dirty and the staff seemed uninterested.,negative,R0104,C7598
+2025-08-03,Poor service and mediocre food. Won't be coming back.,negative,R0040,C6525
+2025-08-03,Best noodles in town! The staff was friendly and the atmosphere was great. Parking was convenient.,positive,R0168,C2399
+2025-08-03,Highly recommend the spicy noodles. The ambiance is also very nice.,positive,R0164,C6991
+2025-08-03,Highly recommend the spicy noodles. The ambiance is also very nice.,positive,R0038,C1215
+2025-08-03,Absolutely amazing food! The noodles were perfectly cooked and the flavors were incredible. Parking was convenient.,positive,R0022,C1240
+2025-08-03,Great value for money. The noodles were fresh and the service was top-notch.,positive,R0117,C9029
+2025-08-03,"The food was okay, nothing special but not bad either.",neutral,R0098,C1406
+2025-08-03,Expensive for what you get. The portions were small and tasteless.,negative,R0028,C7854

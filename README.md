@@ -2,6 +2,11 @@
 
 A sophisticated AI-powered system for analyzing customer feedback and generating automated responses with sentiment visualization capabilities.
 
+## Developer details
+
+Name: Naveen Dilhan Wickramasinghe
+University: NSBM Green University
+
 ## 🚀 Features
 
 ### Agent 1: Customer Feedback Response Agent
